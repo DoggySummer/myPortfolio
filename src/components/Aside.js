@@ -1,12 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faBriefcase,
   faComment,
   faHouse,
   faList,
   faPerson,
-  faQuestion,
 } from '@fortawesome/free-solid-svg-icons';
 
 /**
@@ -35,7 +33,7 @@ const Aside = () => {
         <li>
           <a href="#">
             <span style={{ marginRight: '16px' }}>
-              <FontAwesomeIcon icon={faQuestion} />
+              <FontAwesomeIcon icon={faPerson} />
             </span>
             About
           </a>
@@ -43,25 +41,9 @@ const Aside = () => {
         <li>
           <a href="#">
             <span style={{ marginRight: '16px' }}>
-              <FontAwesomeIcon icon={faPerson} />
-            </span>
-            Services
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span style={{ marginRight: '16px' }}>
               <FontAwesomeIcon icon={faList} />
             </span>
-            Portfolio
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <span style={{ marginRight: '16px' }}>
-              <FontAwesomeIcon icon={faBriefcase} />
-            </span>
-            Portfolio
+            my Project
           </a>
         </li>
         <li>

@@ -8,10 +8,11 @@ const Home = () => {
           <div className="row">
             <div className="home_info">
               <h3 className="hello">
-                Hello, my name is <span className="name">정길웅</span>
+                안녕하세요! 제 이름은 <span className="name">정길웅</span>
+                입니다!
               </h3>
               <h3 className="my_profession">
-                I'm a <span className="typing">web designer</span>
+                저는... <span className="typing">web designer</span>
               </h3>
               <p>lorem ipsum blahblahblah</p>
               <a href="#contact" className="btn hire_me">

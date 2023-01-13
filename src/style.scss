@@ -39,12 +39,32 @@ ul {
 .section_title {
   flex: 0 0 100%;
   max-width: 100%;
+  margin-bottom: 60px;
   @extend .padd_15;
   h2 {
     font-size: 40px;
     color: $text-black-900;
     font-weight: 700;
     position: relative;
+  }
+  h2::before {
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: $skin-color;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  h2::after {
+    content: '';
+    height: 4px;
+    width: 25px;
+    background-color: $skin-color;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
   }
 }
 .main_content {
@@ -248,4 +268,50 @@ ul {
 }
 .typing {
   color: $skin-color;
+}
+
+//about 시작점
+.about {
+  .about_content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    @extend .padd_15;
+  }
+  .about_text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    @extend .padd_15;
+    h3 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      font-weight: 700;
+      color: $text-black-900;
+    }
+    span {
+      color: $skin-color;
+    }
+    p {
+      font-size: 16px;
+      line-height: 25px;
+      color: $text-black-700;
+    }
+  }
+  .personal_info {
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
+  }
+  .skills {
+    @extend .padd_15;
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+  }
+  .personal_info {
+    .info_item {
+      @extend .padd_15;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
 }
