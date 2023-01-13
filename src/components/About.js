@@ -20,7 +20,7 @@ const About = () => {
               <div className="row">
                 <div className="about_text">
                   <h3>
-                    I'm a afkamdfl and <span>Web Designer</span>
+                    저는 정길웅이고... <span>프론트엔드 개발자입니다.</span>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
@@ -42,17 +42,10 @@ const About = () => {
                   <div className="row">
                     <div className="info_item">
                       <p>
-                        Birthday : <span> 4월1일</span>
-                      </p>
-                    </div>
-                    <div className="info_item">
-                      <p>
-                        age : <span> 31</span>
-                      </p>
-                    </div>
-                    <div className="info_item">
-                      <p>
-                        website : <span> aaaaa</span>
+                        깃허브 링크 :
+                        <span>
+                          <a href="#">https://github.com/DoggySummer</a>
+                        </span>
                       </p>
                     </div>
                     <div className="info_item">
@@ -67,7 +60,49 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-                <div className="skills">skills</div>
+                <div className="skills">
+                  <span>My Skills</span>
+                  <div className="skills_item">
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566557331/noticon/d5hqar2idkoefh6fjtpu.png"
+                    ></img>
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567749614/noticon/zgdaxpaif5ojeduonygb.png"
+                    ></img>
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1641952185/noticon/a9qgcuhj0enmzobh68cf.png"
+                    ></img>
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1669720599/noticon/xg13hlex6bu8mu182b5y.png"
+                    ></img>
+                  </div>
+                  <div className="skills_item">
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567008394/noticon/ohybolu4ensol1gzqas1.png"
+                    ></img>
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913457/noticon/eh4d0dnic4n1neth3fui.png"
+                    ></img>
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913958/noticon/uoqjdixts4lwsgtsa1pd.png"
+                    ></img>
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567007298/noticon/zcszelqcacn0cyqpcmjm.png"
+                    ></img>
+                    <img
+                      className="skillImg"
+                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566899596/noticon/slhw4nu8hybreryigopq.png"
+                    ></img>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
