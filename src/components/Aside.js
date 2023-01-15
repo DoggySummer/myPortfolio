@@ -6,6 +6,7 @@ import {
   faList,
   faPerson,
 } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 /**
  * !나중에 a태그들 useNavigate으로 갈아엎어야함
@@ -14,43 +15,43 @@ const Aside = () => {
   return (
     <div className="aside">
       <div className="logo">
-        <a href="#">JGW</a>
+        <Link to="/">JGW</Link>
       </div>
       <div className="nav_toggler">
         <span></span>
       </div>
       <ul className="nav">
         <li>
-          <a href="#" className="active">
+          <Link to="/" className="active">
             <span style={{ marginRight: '16px' }}>
               <FontAwesomeIcon icon={faHouse} />
             </span>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/about">
             <span style={{ marginRight: '16px' }}>
               <FontAwesomeIcon icon={faPerson} />
             </span>
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/project">
             <span style={{ marginRight: '16px' }}>
               <FontAwesomeIcon icon={faList} />
             </span>
             my Project
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/">
             <span style={{ marginRight: '16px' }}>
               <FontAwesomeIcon icon={faComment} />
             </span>
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -23,29 +23,26 @@ const About = () => {
                     저는 정길웅이고... <span>프론트엔드 개발자입니다.</span>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining essentially unchanged. It was popularised in the
-                      1960s with the release of Letraset sheets containing Lorem
-                      Ipsum passages, and more recently with desktop publishing
+                      typesetting industry. Lor been the industry's standard
+                      dummy text ever since the 1500s, when an unknown printer
+                      took a galley of type and scrambled it to make a type
+                      specimen book. It has survived not only five centuries,
+                      but also the leap into electronic typesetting, remaining
+                      essentially unchanged. It was popularised in the 1960s
+                      with the release of Letraset sheets containing Lorem Ipsum
+                      passages, and more recently with desktop publishing
                       software like Aldus PageMaker including versions of Lorem
                       Ipsum.
                     </p>
                   </h3>
                 </div>
               </div>
-              <div className="row">
+              <div className="row skillRow">
                 <div className="personal_info">
                   <div className="row">
                     <div className="info_item">
                       <p>
-                        깃허브 링크 :
-                        <span>
-                          <a href="#">https://github.com/DoggySummer</a>
-                        </span>
+                        깃허브 링크 :<span>https://github.com/DoggySummer</span>
                       </p>
                     </div>
                     <div className="info_item">

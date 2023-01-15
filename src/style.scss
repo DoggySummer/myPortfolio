@@ -101,7 +101,7 @@ ul {
   width: 100%;
   margin: auto;
 }
-// aside 부분
+//! aside 부분
 .aside {
   width: 270px;
   background-color: $black100;
@@ -197,16 +197,18 @@ ul {
     font-size: 16px;
     font-weight: 600;
     display: block;
-    color: $text-black-900;
     padding: 5px 15px;
     border-bottom: 1px solid $black50;
     .active {
       color: $skin-color;
     }
+    a {
+      color: $text-black-900;
+    }
   }
 }
 
-// ? 여기는 home
+// ! 여기는 home
 .home {
   min-height: 100vh;
   display: flex;
@@ -275,7 +277,7 @@ ul {
   color: $skin-color;
 }
 
-//about 시작점
+//! about 시작점
 .about {
   .about_content {
     flex: 0 0 100%;
@@ -353,7 +355,7 @@ ul {
     }
   }
 }
-// ? 여기는 project
+// ! 여기는 project
 .project_heading {
   flex: 0 0 100%;
   max-width: 100%;
@@ -382,4 +384,50 @@ ul {
 .project_imgSrc {
   max-width: 100%;
   display: block;
+}
+
+//! 미디어쿼리
+@media (max-width: 1199px) {
+  .aside {
+    left: -270px;
+  }
+  .main_content {
+    padding-left: 0;
+  }
+  .info_item {
+    span {
+      display: block;
+      margin-left: 0;
+    }
+  }
+  .home_info {
+    margin-left: 10px;
+  }
+  .personal_info {
+    flex: 0 0 40%;
+  }
+}
+@media (max-width: 991px) {
+  .home_info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .home_img {
+    display: none;
+  }
+  .project_item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .project_item,
+  .skills,
+  .personal_info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .skillRow {
+    flex-direction: column;
+  }
 }
