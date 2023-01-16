@@ -8,9 +8,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-/**
- * !나중에 a태그들 useNavigate으로 갈아엎어야함
- */
 const Aside = () => {
   return (
     <div className="aside">

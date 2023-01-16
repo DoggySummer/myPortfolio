@@ -5,7 +5,6 @@ $text-black-900: #302e4d;
 $text-black-700: #504e70;
 $skin-color: #ec1839;
 
-// !A태그 부분 엉성하게 생겨먹음. 수정해야함(64번째 줄)
 @font-face {
   font-family: 'NotoSans';
   src: url(./assets/Noto_Sans_KR/NotoSansKR-Black.otf);
@@ -384,6 +383,12 @@ ul {
 .project_imgSrc {
   max-width: 100%;
   display: block;
+}
+//! 토글 스위치
+.switch_toggler {
+  position: fixed;
+  top: 40px;
+  right: 30px;
 }
 
 //! 미디어쿼리
