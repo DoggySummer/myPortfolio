@@ -68,14 +68,6 @@ const About = () => {
                       className="skillImg"
                       src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567749614/noticon/zgdaxpaif5ojeduonygb.png"
                     ></img>
-                    <img
-                      className="skillImg"
-                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1641952185/noticon/a9qgcuhj0enmzobh68cf.png"
-                    ></img>
-                    <img
-                      className="skillImg"
-                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1669720599/noticon/xg13hlex6bu8mu182b5y.png"
-                    ></img>
                   </div>
                   <div className="skills_item">
                     <img
@@ -93,10 +85,6 @@ const About = () => {
                     <img
                       className="skillImg"
                       src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567007298/noticon/zcszelqcacn0cyqpcmjm.png"
-                    ></img>
-                    <img
-                      className="skillImg"
-                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566899596/noticon/slhw4nu8hybreryigopq.png"
                     ></img>
                   </div>
                 </div>
