@@ -10,7 +10,7 @@ export let ThemeContext = createContext();
 
 function App() {
   useEffect(() => {
-    document.documentElement.setAttribute('data-themeColor', 'red');
+    document.documentElement.setAttribute('data-themeColor', 'beige');
     document.documentElement.setAttribute('data-theme', 'light');
   }, []);
   return (

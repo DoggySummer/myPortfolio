@@ -12,7 +12,7 @@ const Home = () => {
                 입니다!
               </h3>
               <h3 className="my_profession">
-                저는... <span className="typing">web designer</span>
+                저는 <span className="typing">프론트엔드 개발자</span>입니다
               </h3>
               <p>
                 안녕하세요. 성실한 웹 개발자 정길웅입니다. <br /> 끊임없이

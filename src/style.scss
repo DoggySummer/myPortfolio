@@ -335,6 +335,7 @@ ul {
     font-size: 20px;
     font-weight: 700;
     padding-bottom: 40px;
+    color: var(--text-black-700);
   }
   span {
     margin-left: 20px;
@@ -386,7 +387,10 @@ ul {
   right: 30px;
   transition: all 0.5s ease;
 }
-
+.light_toggler {
+  display: flex;
+  justify-content: flex-end;
+}
 .darkMode {
   cursor: pointer;
   font-size: 24px;
@@ -401,7 +405,34 @@ ul {
   font-size: 20px;
   color: var(--text-black-900);
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
+.theme_colors {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.themeCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin: 0 4px;
+}
+.red {
+  background-color: #ec1839;
+}
+.blue {
+  background-color: #1854b4;
+}
+.orange {
+  background-color: #fa5b0f;
+}
+.green {
+  background-color: #37b182;
+}
+
 //! 미디어쿼리
 @media (max-width: 1199px) {
   .aside {

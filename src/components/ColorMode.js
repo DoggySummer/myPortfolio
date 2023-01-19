@@ -13,6 +13,19 @@ const ColorMode = () => {
       : document.documentElement.setAttribute('data-theme', 'light');
   };
 
+  const makeRed = () => {
+    document.documentElement.setAttribute('data-themeColor', 'red');
+  };
+  const makeBlue = () => {
+    document.documentElement.setAttribute('data-themeColor', 'blue');
+  };
+  const makeOrange = () => {
+    document.documentElement.setAttribute('data-themeColor', 'orange');
+  };
+  const makeGreen = () => {
+    document.documentElement.setAttribute('data-themeColor', 'green');
+  };
+
   return (
     <div className="switch_toggler">
       <div className="light_toggler" onClick={darkClick}>
@@ -23,8 +36,13 @@ const ColorMode = () => {
         )}
       </div>
       <div className="theme_toggler">
-        <FontAwesomeIcon icon={faGear} />
-        <div className="theme_colors">ㅁㄴㅇㄹ</div>
+        <FontAwesomeIcon icon={faGear} style={{ marginRight: '4px' }} />
+        <div className="theme_colors">
+          <div className="themeCircle red" onClick={makeRed}></div>
+          <div className="themeCircle blue" onClick={makeBlue}></div>
+          <div className="themeCircle orange" onClick={makeOrange}></div>
+          <div className="themeCircle green" onClick={makeGreen}></div>
+        </div>
       </div>
     </div>
   );

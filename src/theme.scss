@@ -1,4 +1,4 @@
-$black900: #fcfcfc;
+$black900: #fdfdfd;
 $black100: #fdf9ff;
 $black50: #e8dfec;
 $text-black-900: #302e4d;
@@ -14,6 +14,7 @@ $skin-color-red: #ec1839;
 $skin-color-blue: #1854b4;
 $skin-color-orange: #fa5b0f;
 $skin-color-green: #37b182;
+$skin-color-beige: #cdb891;
 
 html[data-themeColor='red'] {
   --skin-color: #{$skin-color-red};
@@ -24,7 +25,12 @@ html[data-themeColor='blue'] {
 html[data-themeColor='orange'] {
   --skin-color: #{$skin-color-orange};
 }
-
+html[data-themeColor='green'] {
+  --skin-color: #{$skin-color-green};
+}
+html[data-themeColor='beige'] {
+  --skin-color: #{$skin-color-beige};
+}
 html[data-theme='light'] {
   --black-900: #{$black900};
   --black-100: #{$black100};
