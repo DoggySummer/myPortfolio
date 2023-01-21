@@ -13,7 +13,7 @@ const ColorMode = () => {
       : document.documentElement.setAttribute('data-theme', 'light');
   };
 
-  const makeRed = () => {
+  const makeRedaaa = () => {
     document.documentElement.setAttribute('data-themeColor', 'red');
   };
   const makeBlue = () => {
