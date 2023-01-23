@@ -20,19 +20,17 @@ const About = () => {
               <div className="row">
                 <div className="about_text">
                   <h3>
-                    저는 정길웅이고... <span>프론트엔드 개발자입니다.</span>
+                    저는 <span>프론트엔드 개발자입니다.</span>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lor been the industry's standard
-                      dummy text ever since the 1500s, when an unknown printer
-                      took a galley of type and scrambled it to make a type
-                      specimen book. It has survived not only five centuries,
-                      but also the leap into electronic typesetting, remaining
-                      essentially unchanged. It was popularised in the 1960s
-                      with the release of Letraset sheets containing Lorem Ipsum
-                      passages, and more recently with desktop publishing
-                      software like Aldus PageMaker including versions of Lorem
-                      Ipsum.
+                      실력있는 프론트엔드 개발자가 되기 위해 리액트를 공부하고
+                      있으며 프로그래머로서의 주요 자질이라고 할 수 있는 협업
+                      능력을 키우기 위해서 시간이 날 때 마다 스터디를 만들거나
+                      참석해 공부하고 있습니다.
+                      <br />
+                      제가 공부한 스터디로는 JS딥다이브 완독, 리액트를 다루는
+                      기술 완독, 리팩토링 완독, CS, 면접 스터디 등이 있으며 매
+                      스터디에 참석할 때 마다 노션에 기록하여 공부한 내용을 잊지
+                      않기 위해 노력하고 있습니다.
                     </p>
                   </h3>
                 </div>

@@ -5,6 +5,7 @@ import { faMoon } from '@fortawesome/free-regular-svg-icons';
 
 const ColorMode = () => {
   const [darkmode, setDarkMode] = useState(true);
+  const [themeColor, setThemeColor] = useState(false);
 
   const darkClick = () => {
     setDarkMode(!darkmode);
@@ -13,8 +14,8 @@ const ColorMode = () => {
       : document.documentElement.setAttribute('data-theme', 'light');
   };
 
-  const makeRedaaa = () => {
-    document.documentElement.setAttribute('data-themeColor', 'red');
+  const makeBeige = () => {
+    document.documentElement.setAttribute('data-themeColor', 'beige');
   };
   const makeBlue = () => {
     document.documentElement.setAttribute('data-themeColor', 'blue');
@@ -24,6 +25,32 @@ const ColorMode = () => {
   };
   const makeGreen = () => {
     document.documentElement.setAttribute('data-themeColor', 'green');
+  };
+
+  const ThemeCirclesOn = () => {
+    return (
+      <div className="theme_colorsOn">
+        <div className="themeCircle beige" onClick={makeBeige}></div>
+        <div className="themeCircle blue" onClick={makeBlue}></div>
+        <div className="themeCircle orange" onClick={makeOrange}></div>
+        <div className="themeCircle green" onClick={makeGreen}></div>
+      </div>
+    );
+  };
+
+  const ThemeCirclesOff = () => {
+    return (
+      <div className="theme_colorsOff">
+        <div className="themeCircle beige" onClick={makeBeige}></div>
+        <div className="themeCircle blue" onClick={makeBlue}></div>
+        <div className="themeCircle orange" onClick={makeOrange}></div>
+        <div className="themeCircle green" onClick={makeGreen}></div>
+      </div>
+    );
+  };
+
+  const clickGear = () => {
+    setThemeColor(!themeColor);
   };
 
   return (
@@ -36,13 +63,12 @@ const ColorMode = () => {
         )}
       </div>
       <div className="theme_toggler">
-        <FontAwesomeIcon icon={faGear} style={{ marginRight: '4px' }} />
-        <div className="theme_colors">
-          <div className="themeCircle red" onClick={makeRed}></div>
-          <div className="themeCircle blue" onClick={makeBlue}></div>
-          <div className="themeCircle orange" onClick={makeOrange}></div>
-          <div className="themeCircle green" onClick={makeGreen}></div>
-        </div>
+        <FontAwesomeIcon
+          icon={faGear}
+          style={{ marginRight: '4px' }}
+          onClick={clickGear}
+        />
+        {themeColor === true ? <ThemeCirclesOn /> : <ThemeCirclesOff />}
       </div>
     </div>
   );

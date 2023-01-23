@@ -280,7 +280,7 @@ ul {
   }
   .about_text {
     flex: 0 0 100%;
-    max-width: 100%;
+    max-width: 90%;
     @extend .padd_15;
     h3 {
       font-size: 24px;
@@ -409,10 +409,17 @@ ul {
   flex-direction: column;
   align-items: flex-end;
 }
-.theme_colors {
+.theme_colorsOn {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+  transition: 0.5s all ease;
+}
+.theme_colorsOff {
+  display: none;
+  flex-direction: row;
+  margin-top: 10px;
+  transition: 0.5s all ease;
 }
 .themeCircle {
   width: 20px;
@@ -420,8 +427,8 @@ ul {
   border-radius: 20px;
   margin: 0 4px;
 }
-.red {
-  background-color: #ec1839;
+.beige {
+  background-color: #cdb891;
 }
 .blue {
   background-color: #1854b4;
