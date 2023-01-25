@@ -21,7 +21,7 @@ const Project = () => {
                 <div className="project_img">
                   <img
                     className="project_imgSrc"
-                    src="pictures/myPic.jpg"
+                    src="https://user-images.githubusercontent.com/90492088/213950861-a0c3987e-9954-4760-b5a6-b8c67ae623e3.gif"
                   ></img>
                 </div>
               </div>
