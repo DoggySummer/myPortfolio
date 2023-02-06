@@ -16,14 +16,13 @@ function App() {
   }, []);
   return (
     <div>
-      {/* <Aside />
+      <Aside />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
       </Routes>
-      <ColorMode /> */}
-      <Swiperjj />
+      <ColorMode />
     </div>
   );
 }
