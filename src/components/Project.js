@@ -14,7 +14,7 @@ const Project = () => {
           </div>
           <div className="row">
             <div className="project_heading">
-              <h2>My Last Projects : </h2>
+              <h2>My Last Projects </h2>
             </div>
           </div>
         </div>
