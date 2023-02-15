@@ -20,7 +20,7 @@ const About = () => {
               <div className="row">
                 <div className="about_text">
                   <h3>
-                    저는 <span>프론트엔드 개발자입니다.</span>
+                    저는 <span>프론트엔드 개발자</span>입니다.
                     <p>
                       실력있는 프론트엔드 개발자가 되기 위해 리액트를 공부하고
                       있으며 프로그래머로서의 주요 자질이라고 할 수 있는 협업
