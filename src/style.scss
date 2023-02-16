@@ -473,19 +473,41 @@ ul {
     transform: rotate(1turn);
   }
 }
-.theme_colorsOn {
+.theme_colors {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
   animation-duration: 0.5s;
   animation-timing-function: ease-in;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+.toggleOn {
+  right: 0px;
+  animation: fadeIn ease-in-out 1s;
+}
+.toggleOff {
+  right: -140px;
+  animation: fadeOut ease-in-out 1s;
 }
 
-.theme_colorsOff {
-  display: none;
-  flex-direction: row;
-  margin-top: 10px;
-  transition: 0.5s all ease;
+@keyframes fadeIn {
+  0% {
+    right: -140px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: -140px;
+  }
 }
 .themeCircle {
   width: 20px;

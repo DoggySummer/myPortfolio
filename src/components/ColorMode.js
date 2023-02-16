@@ -1,13 +1,12 @@
-import React, { useContext, useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGear, faSun } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-regular-svg-icons';
-import { CSSTransition } from 'react-transition-group';
 
 const ColorMode = () => {
   const [darkmode, setDarkMode] = useState(true);
   const [themeColor, setThemeColor] = useState(false);
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState('toggleOn');
 
   const darkClick = () => {
     setDarkMode(!darkmode);
@@ -30,18 +29,7 @@ const ColorMode = () => {
 
   const ThemeCirclesOn = () => {
     return (
-      <div className="theme_colorsOn" id="themeColor">
-        <div className="themeCircle beige" onClick={makeBeige}></div>
-        <div className="themeCircle blue" onClick={makeBlue}></div>
-        <div className="themeCircle orange" onClick={makeOrange}></div>
-        <div className="themeCircle green" onClick={makeGreen}></div>
-      </div>
-    );
-  };
-
-  const ThemeCirclesOff = () => {
-    return (
-      <div className="theme_colorsOff">
+      <div className={'theme_colors ' + toggle}>
         <div className="themeCircle beige" onClick={makeBeige}></div>
         <div className="themeCircle blue" onClick={makeBlue}></div>
         <div className="themeCircle orange" onClick={makeOrange}></div>
@@ -52,6 +40,11 @@ const ColorMode = () => {
 
   const clickGear = () => {
     setThemeColor(!themeColor);
+    if (toggle === 'toggleOn') {
+      setToggle('toggleOff');
+    } else {
+      setToggle('toggleOn');
+    }
   };
 
   return (
@@ -70,7 +63,8 @@ const ColorMode = () => {
           onClick={clickGear}
           className="gear"
         />
-        {themeColor === true ? <ThemeCirclesOn /> : <ThemeCirclesOff />}
+        <ThemeCirclesOn />
+        {/* {themeColor === true ? <ThemeCirclesOn /> : <ThemeCirclesOff />} */}
       </div>
     </div>
   );
