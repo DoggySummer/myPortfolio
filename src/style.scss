@@ -188,16 +188,19 @@ ul {
   li {
     margin-bottom: 20px;
     display: block;
-    font-size: 16px;
-    font-weight: 600;
-    display: block;
     padding: 5px 15px;
     border-bottom: 1px solid var(--black-50);
+    div {
+      border: 0;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 600;
+    }
     .active {
       color: var(--skin-color);
     }
     a {
-      color: var(--text-black-900);
+      color: var(--text-black-700);
     }
   }
 }
@@ -377,10 +380,55 @@ ul {
   max-width: 100%;
   display: block;
 }
-.swiper_container {
-  width: 300px;
-  height: 100%;
-  background-color: #1854b4;
+.project_card {
+  width: 90%;
+  height: 300px;
+  color: var(--text-black-900);
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.project_content {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  color: var(--text-black-900);
+  img {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  span {
+    margin-top: 0px;
+  }
+  p,
+  a {
+    font-weight: lighter;
+    margin: 4px 0;
+    color: var(--text-black-900);
+  }
+}
+.project_leftSide {
+  width: 60%;
+  div {
+    margin-bottom: 10px;
+  }
+}
+.project_rightSide {
+  padding-left: 40px;
+  width: 40%;
+  p {
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  span {
+    color: var(--skin-color);
+    font-weight: bold;
+  }
+}
+.swiper {
+  width: 90%;
+  height: 400px;
 }
 
 //! 토글 스위치
@@ -475,6 +523,28 @@ ul {
   .project_item {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .project_card {
+    h2 {
+      padding-left: 12px;
+    }
+  }
+  .project_content {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 12px;
+  }
+  .project_leftSide {
+    width: 100%;
+    height: auto;
+    span {
+      margin-bottom: 10px;
+    }
+  }
+  .project_rightSide {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0;
   }
 }
 @media (max-width: 767px) {

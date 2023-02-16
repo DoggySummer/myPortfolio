@@ -40,7 +40,12 @@ const About = () => {
                   <div className="row">
                     <div className="info_item">
                       <p>
-                        깃허브 링크 <span>https://github.com/DoggySummer</span>
+                        깃허브 링크{' '}
+                        <span>
+                          <a href="https://github.com/DoggySummer">
+                            https://github.com/DoggySummer
+                          </a>
+                        </span>
                       </p>
                     </div>
                     <div className="info_item">
