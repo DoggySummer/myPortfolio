@@ -40,7 +40,7 @@ const About = () => {
                   <div className="row">
                     <div className="info_item">
                       <p>
-                        깃허브 링크{' '}
+                        깃허브 링크
                         <span>
                           <a href="https://github.com/DoggySummer">
                             https://github.com/DoggySummer
@@ -81,10 +81,7 @@ const About = () => {
                       className="skillImg"
                       src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913457/noticon/eh4d0dnic4n1neth3fui.png"
                     ></img>
-                    <img
-                      className="skillImg"
-                      src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913958/noticon/uoqjdixts4lwsgtsa1pd.png"
-                    ></img>
+
                     <img
                       className="skillImg"
                       src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567007298/noticon/zcszelqcacn0cyqpcmjm.png"

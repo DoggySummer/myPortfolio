@@ -18,7 +18,7 @@ const Home = () => {
                 안녕하세요. 성실한 웹 개발자 정길웅입니다. <br /> 끊임없이
                 공부를 하며 정진하는 것이 저의 가장 큰 장점이라고 생각합니다
               </p>
-              <a href="#contact" className="btn hire_me">
+              <a href="https://github.com/DoggySummer" className="btn hire_me">
                 더 보기
               </a>
             </div>
