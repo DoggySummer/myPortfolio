@@ -1,11 +1,13 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGear, faSun } from '@fortawesome/free-solid-svg-icons';
 import { faMoon } from '@fortawesome/free-regular-svg-icons';
+import { CSSTransition } from 'react-transition-group';
 
 const ColorMode = () => {
   const [darkmode, setDarkMode] = useState(true);
   const [themeColor, setThemeColor] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   const darkClick = () => {
     setDarkMode(!darkmode);
@@ -13,7 +15,6 @@ const ColorMode = () => {
       ? document.documentElement.setAttribute('data-theme', 'dark')
       : document.documentElement.setAttribute('data-theme', 'light');
   };
-
   const makeBeige = () => {
     document.documentElement.setAttribute('data-themeColor', 'beige');
   };
@@ -29,7 +30,7 @@ const ColorMode = () => {
 
   const ThemeCirclesOn = () => {
     return (
-      <div className="theme_colorsOn">
+      <div className="theme_colorsOn" id="themeColor">
         <div className="themeCircle beige" onClick={makeBeige}></div>
         <div className="themeCircle blue" onClick={makeBlue}></div>
         <div className="themeCircle orange" onClick={makeOrange}></div>
@@ -67,6 +68,7 @@ const ColorMode = () => {
           icon={faGear}
           style={{ marginRight: '4px' }}
           onClick={clickGear}
+          className="gear"
         />
         {themeColor === true ? <ThemeCirclesOn /> : <ThemeCirclesOff />}
       </div>
