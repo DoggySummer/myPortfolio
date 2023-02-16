@@ -63,16 +63,6 @@ const Aside = () => {
             </Link>
           </div>
         </li>
-        <li>
-          <div onClick={handleToggle}>
-            <Link to="/" id="4" className={isActive === '4' ? 'active' : null}>
-              <span style={{ marginRight: '16px' }}>
-                <FontAwesomeIcon icon={faComment} />
-              </span>
-              Contact
-            </Link>
-          </div>
-        </li>
       </ul>
     </div>
   );
