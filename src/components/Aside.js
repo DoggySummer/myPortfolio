@@ -52,9 +52,23 @@ const Aside = () => {
         <li>
           <div onClick={handleToggle}>
             <Link
-              to="/project"
+              to="/project_1"
               id="3"
               className={isActive === '3' ? 'active' : null}
+            >
+              <span style={{ marginRight: '16px' }}>
+                <FontAwesomeIcon icon={faList} />
+              </span>
+              my Project
+            </Link>
+          </div>
+        </li>
+        <li>
+          <div onClick={handleToggle}>
+            <Link
+              to="/project_2"
+              id="4"
+              className={isActive === '4' ? 'active' : null}
             >
               <span style={{ marginRight: '16px' }}>
                 <FontAwesomeIcon icon={faList} />

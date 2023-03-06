@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 
-const Project = () => {
+const Project_1 = () => {
   return (
     <div className="main_content">
       <div className="section project">
@@ -40,8 +40,8 @@ const Project = () => {
                   <h3>-실시간 확인 기능이 있는 새싹챗</h3>
                   <p>
                     <span>실시간으로 유저의 온오프라인의 정보를 확인</span>할 수
-                    있는 채팅웹사이트입니다.
-                    <br /> 개발에 참여한 멤버가 공부를 시작한지 얼마안된
+                    있는 채팅 웹사이트입니다.
+                    <br /> 개발에 참여한 멤버가 공부를 시작한 지 얼마 안 된
                     새내기들이라는 점에서 착안하여 "새싹챗"이라는 이름이
                     탄생했습니다.
                   </p>
@@ -49,9 +49,9 @@ const Project = () => {
                   <p>
                     <span>SCSS</span>를 활용한 반응형 디자인 및{' '}
                     <span>SockJS</span>를 활용한 백엔드와의 소통 방식을
-                    선택했습니다. 최근 트랜드와 효율성 두가지를 모두
+                    선택했습니다. 최근 트랜드와 효율성 두 가지를 모두
                     고려하였습니다. 또한 <span>SWR</span>을 활용하여 전역적인
-                    상태관리(회원정보)를 하고있습니다.
+                    상태관리(회원 정보)를 하고 있습니다.
                   </p>
                   <p>
                     <h3>-백엔드와의 소통</h3>
@@ -89,4 +89,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Project_1;
