@@ -6,6 +6,8 @@ import {
   faList,
   faPerson,
 } from '@fortawesome/free-solid-svg-icons';
+import { AiOutlineWechat } from 'react-icons/ai';
+import { FaChalkboardTeacher } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Aside = () => {
@@ -57,9 +59,9 @@ const Aside = () => {
               className={isActive === '3' ? 'active' : null}
             >
               <span style={{ marginRight: '16px' }}>
-                <FontAwesomeIcon icon={faList} />
+                <AiOutlineWechat />
               </span>
-              my Project
+              project(새싹챗)
             </Link>
           </div>
         </li>
@@ -71,9 +73,9 @@ const Aside = () => {
               className={isActive === '4' ? 'active' : null}
             >
               <span style={{ marginRight: '16px' }}>
-                <FontAwesomeIcon icon={faList} />
+                <FaChalkboardTeacher />
               </span>
-              my Project
+              project(새싹로그)
             </Link>
           </div>
         </li>
