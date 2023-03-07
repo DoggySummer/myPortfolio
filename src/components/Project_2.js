@@ -22,42 +22,54 @@ const Project_2 = () => {
               <h2>새싹로그</h2>
               <div className="project_content">
                 <div className="project_leftSide">
-                  <img src="pictures/saessak2.png" />
+                  <img src="pictures/saessakLog.png" />
                   <div>
                     <BsCheckLg /> 주요 기능
-                    <p> 토큰을 활용한 회원가입/로그인, 실시간 채팅으로 소통 </p>
+                    <p>
+                      토큰을 활용한 회원가입/로그인, 게시글/댓글 무한스크롤,
+                      <br />
+                      게시글 좋아요/사용자 구독 시스템
+                    </p>
                   </div>
                   <div>
                     <BsCheckLg /> 깃 주소
                     <p>
-                      <a href="https://github.com/saessak-study/saessak-chat-front">
-                        https://github.com/saessak-study/saessak-chat-front
+                      <a href="https://github.com/saessak-study/saessak-log-front">
+                        https://github.com/saessak-study/saessak-log-front
                       </a>
                     </p>
                   </div>
                 </div>
                 <div className="project_rightSide">
-                  <h3>-실시간 확인 기능이 있는 새싹챗</h3>
+                  <h3>-사진 업로드 커뮤니티 새싹로그</h3>
                   <p>
-                    <span>실시간으로 유저의 온오프라인의 정보를 확인</span>할 수
-                    있는 채팅 웹사이트입니다.
-                    <br /> 개발에 참여한 멤버가 공부를 시작한 지 얼마 안 된
-                    새내기들이라는 점에서 착안하여 "새싹챗"이라는 이름이
-                    탄생했습니다.
+                    <span>사진을 업로드</span>하고
+                    <span> 그 게시글에 좋아요</span>를 누를 수 있는 웹 커뮤니티
+                    사이트입니다.
+                    <br /> 기존의 새싹챗의 인원이 추가되어 새싹로그라는 이름을
+                    붙였습니다.
                   </p>
-                  <h3>-SCSS, SockJS, SWR의 활용</h3>
+                  <h3>-토큰을 활용한 로그인</h3>
                   <p>
-                    <span>SCSS</span>를 활용한 반응형 디자인 및{' '}
-                    <span>SockJS</span>를 활용한 백엔드와의 소통 방식을
-                    선택했습니다. 최근 트랜드와 효율성 두 가지를 모두
-                    고려하였습니다. 또한 <span>SWR</span>을 활용하여 전역적인
-                    상태관리(회원 정보)를 하고 있습니다.
+                    백엔드에 로그인 정보를 주고 결과가 일치한다면{' '}
+                    <span>토큰</span>을 주어{' '}
+                    <span>세션스토리지/로컬스토리지</span>에 저장할 수 있게
+                    했습니다. 이것으로 로그인 정보를 유지시켜{' '}
+                    <span>좋아요, 구독, 비밀번호 변경, 댓글</span>등의 기능을
+                    수행할 수 있게끔 했습니다.
                   </p>
                   <p>
-                    <h3>-백엔드와의 소통</h3>
-                    <span>백엔드와 협업</span>하는 과정에서 협업툴인{' '}
-                    <span>Slack</span>을 활용하여 회의 기록을 남기고 소통하는
-                    과정에 대해 배우게 되었습니다.
+                    <h3>-리덕스 툴킷</h3>
+                    <span>전역적인 상태관리</span>와{' '}
+                    <span>백엔드와의 통신</span>을 위하여 리덕스 툴킷을
+                    사용하였습니다. 사용 예시로는{' '}
+                    <span>검색어, 이미지 자료, 회원정보</span>등이 있습니다.
+                  </p>
+                  <p>
+                    <h3>-타입스크립트</h3>
+                    <span>타입스크립트</span>를 도입하면서 기존에 발생할 수
+                    있었던 타입오류를 사전에 제거하고 프로젝트로서의 완성도도
+                    높였습니다.
                   </p>
                 </div>
               </div>
