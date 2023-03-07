@@ -25,7 +25,7 @@ const Project_2 = () => {
                   <img src="pictures/saessak2.png" />
                   <div>
                     <BsCheckLg /> 주요 기능
-                    <p> 회원가입/로그인, 실시간 채팅으로 소통 </p>
+                    <p> 토큰을 활용한 회원가입/로그인, 실시간 채팅으로 소통 </p>
                   </div>
                   <div>
                     <BsCheckLg /> 깃 주소
