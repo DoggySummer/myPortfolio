@@ -15,9 +15,9 @@ const Home = () => {
                 저는 <span className="typing">프론트엔드 개발자</span>입니다
               </h3>
               <p>
-                안녕하세요. 성실한 웹 개발자 정길웅입니다.
-                <br /> 끊임없이 공부를 하며 정진하는 것이 저의 가장 큰
-                장점이라고 생각합니다
+                안녕하세요. 소통하는 웹 개발자 정길웅입니다.
+                <br /> 사람들과 소통하며 개발하는 것이 저의 가장 큰 장점이라고
+                생각합니다
               </p>
               <a href="https://github.com/DoggySummer" className="btn hire_me">
                 더 보기
