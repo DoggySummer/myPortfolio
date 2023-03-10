@@ -66,7 +66,7 @@ const Project_1 = () => {
                 className="swiper_container"
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={500}
-                slidesPerView={3}
+                slidesPerView={2}
                 pagination={{ clickable: true }}
                 navigation={true}
               >
