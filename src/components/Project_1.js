@@ -73,7 +73,7 @@ const Project_1 = () => {
                 <SwiperSlide>
                   <div className="project_oneCard">
                     <img src="pictures/saessak2.png" />
-                    <p>이렇게 저렇게 적는 로렘 입숨</p>
+                    <p>이렇게 저렇게 로렘 입숨</p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>Slide 2</SwiperSlide>
