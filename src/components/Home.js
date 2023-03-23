@@ -25,7 +25,7 @@ const Home = () => {
             </div>
             <div className="home_img">
               <div className="img_border">
-                <img src="pictures/myPic.jpg" alt="#"></img>
+                <img src="pictures/myPic.jpg" alt=""></img>
               </div>
             </div>
           </div>
