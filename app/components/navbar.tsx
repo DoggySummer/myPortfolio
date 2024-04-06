@@ -38,7 +38,7 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="z-10 flex h-16 w-full items-center justify-between px-12 backdrop-blur-sm">
+    <div className=" z-10 flex h-16 w-full items-center justify-between px-12 backdrop-blur-sm">
       <div className="cursor-pointer">GW</div>
       <ul className="flex">
         {menus.map((item, i) => (
